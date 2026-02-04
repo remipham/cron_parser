@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cron_parser"
+version = "0.1.0"
+description = "A simple cron string parser with CLI."
+authors = [
+    { name = "Remi Pham", email = "remi.pham@outlook.fr" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
