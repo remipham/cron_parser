@@ -8,13 +8,19 @@ A simple Python CLI tool and library to parse cron strings and print their expan
 - Warnings for invalid or unusual cron combinations
 
 ## Requirements
-- Python 3.7+
+- Python 3.10 minimum
 
 ## Installation
 Clone the repository:
 ```sh
 git clone https://github.com/remipham/cron_parser.git
 cd cron_parser
+```
+
+The package uses Poetry for package dependencies management. Check https://python-poetry.org/docs/#installation and run
+
+```sh
+poetry install
 ```
 
 ## Usage
